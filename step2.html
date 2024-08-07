@@ -157,7 +157,7 @@
         }
         function copyToClipboard2(text) {
             navigator.clipboard.writeText(text).then(function() {
-                alert('返油链接已复制到剪切板：' + text);
+                alert('返油链接已复制到剪切板’);
             }, function(err) {
                 console.error('无法复制文本：', err);
             });
